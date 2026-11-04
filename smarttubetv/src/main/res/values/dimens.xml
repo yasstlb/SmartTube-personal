@@ -33,7 +33,7 @@
     <!-- Card view default size -->
     <!--
     <dimen name="lb_basic_card_title_text_size">14sp</dimen>
-    <dimen name="lb_basic_card_content_text_size">12sp</dimen>
+    <dimen name="lb_basic_card_content_text_size">13sp</dimen>
     -->
 
     <!-- Search items left margin (except first one). Original value: 70dp -->
@@ -96,7 +96,7 @@
     <!--<dimen name="lb_browse_item_horizontal_spacing">15dp</dimen>-->
     <!--<dimen name="lb_browse_item_vertical_spacing">15dp</dimen>-->
     <dimen name="grid_item_horizontal_spacing">18dp</dimen>
-    <dimen name="grid_item_vertical_spacing">15dp</dimen>
+    <dimen name="grid_item_vertical_spacing">20dp</dimen>
     <dimen name="grid_horizontal_margin">18dp</dimen>
 
     <!-- Browse headers spacing. Origin: 21dp -->
@@ -106,10 +106,10 @@
     <!-- Vine card widget values -->
     <dimen name="lb_basic_card_main_width">140dp</dimen>
     <dimen name="lb_basic_card_main_height">188dp</dimen>
-    <dimen name="lb_basic_card_info_height">52dp</dimen>
+    <dimen name="lb_basic_card_info_height">62dp</dimen>
     <dimen name="lb_basic_card_info_padding">6dp</dimen>
     <dimen name="lb_basic_card_info_text_margin">2dp</dimen>
-    <dimen name="lb_basic_card_title_text_size">16sp</dimen>
+    <dimen name="lb_basic_card_title_text_size">18sp</dimen>
     <dimen name="lb_basic_card_content_text_size">12sp</dimen>
     <dimen name="lb_basic_card_info_badge_size">16dp</dimen>
 
