@@ -8,9 +8,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginBottom="10dp"
-    android:layout_marginLeft="16dp"
-    android:layout_marginRight="3dp"
+    android:layout_marginBottom="14dp"
+    android:layout_marginLeft="24dp"
+    android:layout_marginRight="20dp"
     android:layout_marginTop="0dp"
     android:focusable="false">
 
@@ -21,8 +21,8 @@
         android:layout_height="40dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="2dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp" />
+        android:layout_marginEnd="14dp"
+        android:layout_marginRight="14dp" />
 
     <!-- Stretch bubble: android:layout_width="wrap_content"->"match_parent" -->
     <!-- Stretch bubble: app:justifyContent="flex_end"->"flex_start" -->
@@ -42,8 +42,8 @@
 
         <!-- Tweaks from video info dialog: leanback_list_preference_fragment.xml:26 -->
         <!-- More info: com.liskovsoft.smartyoutubetv2.tv.ui.mod.leanback.misc.LeanbackListPreferenceDialogFragment -->
-        <!-- Text: add android:fontFamily="sans-serif-condensed" -->
-        <!-- Text: add android:lineSpacingMultiplier="0.9" -->
+        <!-- Text: add android:fontFamily="sans-serif" -->
+        <!-- Text: add android:lineSpacingMultiplier="1.12" -->
         <!-- Messages exceeding certain length cause crashes. RecycleView bug? -->
         <!-- add android:maxLines="130" (max 130, optimal for reading 50) -->
         <TextView
