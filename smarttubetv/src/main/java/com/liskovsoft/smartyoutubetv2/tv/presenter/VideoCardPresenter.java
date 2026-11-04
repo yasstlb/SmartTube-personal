@@ -93,6 +93,8 @@ public class VideoCardPresenter extends LongClickPresenter {
     }
 
     private void updateCardBackgroundColor(ComplexImageCardView view, boolean selected) {
+        // Keep the YouTube TV-inspired cards dark when focused; use a
+        // contrasting text color instead of flashing a white info panel.
         int backgroundColor = selected ? mSelectedBackgroundColor : mDefaultBackgroundColor;
         int textColor = selected ? mSelectedTextColor : mDefaultTextColor;
 
