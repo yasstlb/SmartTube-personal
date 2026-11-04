@@ -52,7 +52,7 @@
 
     <!-- Increase this value to hide left strip from Browse fragment (when headers collapsed) -->
     <!-- Old value: 238dp -->
-    <dimen name="lb_browse_rows_margin_start">265dp</dimen>
+    <dimen name="lb_browse_rows_margin_start">245dp</dimen>
 
     <!-- Make search bar more compact so more buttons could be added after it. -->
     <dimen name="lb_search_bar_items_width">600dp</dimen>
@@ -101,7 +101,7 @@
 
     <!-- Browse headers spacing. Origin: 21dp -->
     <!--<dimen name="lb_browse_headers_vertical_spacing">10dp</dimen>-->
-    <dimen name="browse_headers_vertical_spacing">10dp</dimen>
+    <dimen name="browse_headers_vertical_spacing">16dp</dimen>
 
     <!-- Vine card widget values -->
     <dimen name="lb_basic_card_main_width">140dp</dimen>
