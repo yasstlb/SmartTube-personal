@@ -94,8 +94,11 @@ public class IconHeaderItemPresenter extends RowHeaderPresenter {
     // mUnselectAlpha, and also assumes the xml inflation will return a RowHeaderView.
     @Override
     protected void onSelectLevelChanged(RowHeaderPresenter.ViewHolder holder) {
-        holder.view.setAlpha(mUnselectedAlpha + holder.getSelectLevel() *
-                (1.0f - mUnselectedAlpha));
+        float focus = holder.getSelectLevel();
+        holder.view.setAlpha(mUnselectedAlpha + focus * (1.0f - mUnselectedAlpha));
+        // Subtle TV remote focus feedback without changing row measurements.
+        holder.view.setScaleX(1.0f + 0.03f * focus);
+        holder.view.setScaleY(1.0f + 0.03f * focus);
     }
 
     private final RequestListener<Drawable> mErrorListener = new RequestListener<Drawable>() {
