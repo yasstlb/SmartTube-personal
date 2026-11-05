@@ -30,10 +30,10 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_marginLeft="@dimen/lb_basic_card_info_text_margin"
-                android:layout_marginTop="4dp"
+                android:layout_marginTop="5dp"
                 android:ellipsize="end"
                 android:fontFamily="sans-serif-medium"
-                android:maxLines="1"
+                android:maxLines="2"
                 android:textColor="@color/lb_basic_card_title_text_color"
                 android:textSize="@dimen/lb_basic_card_title_text_size" />
 
